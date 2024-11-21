@@ -1,0 +1,54 @@
+/* Applying background image and styling */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://source.unsplash.com/1600x900/?space,moon') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Container to center the text */
+.noao0107a {
+    text-align: center;
+    height: 100%;
+    width:100%;
+    background-image: url(./noao0107a.jpeg);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: buttermilk;
+    font-weight:100;
+    font-size:190px;
+    color:#fff;
+    mix-blend-mode: difference;
+}
+/* Styling for the butterfly font effect */
+/* .butterfly-font {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff69b4;
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.3), 
+        -2px -2px 5px rgba(0, 0, 0, 0.3), 
+        4px 4px 10px rgba(255, 182, 193, 0.5);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+} */
+
+/* Adding a butterfly effect on hover */
+/* .butterfly-font:hover {
+    color: #ff1493;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+} */
+
+/* Importing a custom butterfly-style font */
+
